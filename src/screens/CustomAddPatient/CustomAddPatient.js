@@ -14,7 +14,6 @@ const AddPatient = () => {
     const [Address, setAddress] = useState('');
     const [PhoneNumber, setPhoneNumber] = useState('');
     
-
     const CustomAddPatient = () => {
         // sending to our nodejs server
         var myHeaders = new Headers();
