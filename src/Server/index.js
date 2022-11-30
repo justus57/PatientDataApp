@@ -4,10 +4,6 @@ const routes = require('./routes/records');
 const Model = require('./model');
 const hostname = '127.0.0.1';
 const port = 5000;
-// require('dotenv').config();
-// const config = require('./config.env')
-// const mongoString = config.env.DATABASE_URL;
-
 
 mongoose.connect("mongodb+srv://nodjs:nodejs@nodejs1.ubyhmwp.mongodb.net/PatientDataMgt");
 const database = mongoose.connection;

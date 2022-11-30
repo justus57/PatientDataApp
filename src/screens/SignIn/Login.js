@@ -6,8 +6,6 @@ import Custominput  from '../../components/LoginCustomInput'
 import CustomButton  from  '../../components/CustomButton'
 import Logo from '../../assets/images/download.png'
 
-
-
 // create a component
 const Login = () => {
     const navigation = useNavigation();
@@ -15,7 +13,6 @@ const Login = () => {
 
     const [username ,setUsername]= useState('')
     const [password, setPassword] = useState('')
-  
 
     const OnLogin=()=>{
         console.warn("Welcome!");
