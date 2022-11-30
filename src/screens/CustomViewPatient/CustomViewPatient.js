@@ -2,9 +2,11 @@
 import React, { Component } from 'react';
 import JsonData from '../../data.json'
 import { View, Text, StyleSheet } from 'react-native';
+import { Table, Row, Rows } from 'react-native-table-component';
 
 // create a component
 const CustomViewPatient = () => {
+    const header = ['USERNAME', 'EMAIL', 'City']
   const  componentDidMount=()=>{
       var myHeaders = new Headers();
       myHeaders.append("Content-Type", "application/json");
@@ -30,6 +32,9 @@ const CustomViewPatient = () => {
                     <td>{info.id}</td>
                     <td>{info.name}</td>
                     <td>{info.city}</td>
+                </tr>
+                <tr>
+
                 </tr>
             )
         }
