@@ -11,7 +11,7 @@ const CustomViewPatient = () => {
       var myHeaders = new Headers();
       myHeaders.append("Content-Type", "application/json");
 
-      var raw = "";
+      var raw = "{}";
 
       var requestOptions = {
           method: 'GET',
