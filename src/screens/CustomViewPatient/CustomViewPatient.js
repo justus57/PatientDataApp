@@ -33,9 +33,7 @@ const CustomViewPatient = () => {
                     <td>{info.name}</td>
                     <td>{info.city}</td>
                 </tr>
-                <tr>
-
-                </tr>
+           
             )
         }
     )
